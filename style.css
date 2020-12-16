@@ -1,0 +1,89 @@
+/* No CSS */
+/*# sourceMappingURL=style.css.map */
+
+nav {
+    background: #27262b;
+}
+
+.myportfolio {
+    font-family: Courgette, cursive;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.banner-heading {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.font {
+    font-family: Courgette, cursive;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.icon-box {
+    background-color: #f9d036;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+
+.icon-box:hover {
+    color: #f9d036;
+    background-color: white;
+    border: 3px solid #f9d036;
+    cursor: pointer;
+}
+
+.text-card {
+
+    Color: rgba(0, 0, 0, 0.5);
+}
+
+.font-color {
+
+    Color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+.sec2 {
+    background-color: #f8f9fa;
+}
+
+.btnn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: #fff;
+}
+
+.position-relative:hover .btnn {
+    background: rgb(243, 191, 41, .8);
+    display: block;
+    color: rgb(246, 247, 246, .9);
+}
+
+/* cards */
+.photo {
+    border: 8px solid lightgray;
+    border-radius: 50%;
+
+    width: 250px;
+    height: 250px;
+}
+
+/* contact section */
+.ground {
+    background-image: url("images/map-image.jpg");
+    /* height: 600px; */
+}
